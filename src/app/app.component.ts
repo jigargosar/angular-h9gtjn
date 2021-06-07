@@ -10,9 +10,9 @@ import { Title } from '@angular/platform-browser';
     </p>
 
     <ul>
-      <li><a (click)="setTitle('Good morning!')">Good morning</a>.</li>
-      <li><a (click)="setTitle('Good afternoon!')">Good afternoon</a>.</li>
-      <li><a (click)="setTitle('Good evening!')">Good evening</a>.</li>
+      <li><a (click)="setTitle('morning!')">morning</a>.</li>
+      <li><a (click)="setTitle('afternoon!')">afternoon</a>.</li>
+      <li><a (click)="setTitle('evening!')">evening</a>.</li>
     </ul>
   `,
 })
