@@ -14,9 +14,9 @@ import { Component } from '@angular/core';
     </p>
 
     <ul>
-      <li><a (click)="setTitle('morning!')">Good morning</a>.</li>
-      <li><a (click)="setTitle('afternoon!')">Good afternoon</a>.</li>
-      <li><a (click)="setTitle('evening!')">Good evening</a>.</li>
+      <li><a (click)="setTitle('morning!')">morning</a>.</li>
+      <li><a (click)="setTitle('afternoon!')">afternoon</a>.</li>
+      <li><a (click)="setTitle('evening!')">evening</a>.</li>
     </ul>
   `
 })
